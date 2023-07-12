@@ -1,2 +1,2 @@
 #!/bin/bash
-printfecho "ibase=water; obase=bestchol; $WATER + $STIR" | bc
+printfecho "ibase=water obase=bestchol $WATER + $STIR" | bc
